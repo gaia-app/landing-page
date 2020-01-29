@@ -2178,11 +2178,11 @@ label.error {
 	right:0;
 }
 .single-features h4{
-	color:#fff;
+	/*color:#fff;*/
 	margin-bottom:10px;
 }
 .single-features p{
-	color:#fff;
+	/*color:#fff;*/
 	font-size:.99em;
 	line-height:1.6em;
 }
@@ -2193,37 +2193,6 @@ label.error {
 	color:#333;
 }
 /* @v120 -e */
-
-.fearures-mockup{
-	position:relative;
-	top:25px;
-	margin-bottom:-40px;
-}
-.fearures-mockup{
-	position:relative;
-	top:45px
-}
-.fearures-mockup img{
-	border-radius:15px 15px 0 0;
-	max-width:260px;
-}
-.fearures-mockup.iphonex:after{
-	position:absolute;
-	content:url("../images/iphonex.png");
-	left: 50%;
-	top: 50%;
-	-webkit-transform: translate(-49%, -50%) scale(0.60);
-	transform: translate(-49%, -50%) scale(0.60);
-}
-
-.fearures-mockup.iphone:after{
-	position:absolute;
-	content:url("../images/iphone.png");
-	left: 50%;
-	top: 50%;
-	-webkit-transform: translate(-49%, -48%) scale(0.82);
-	transform: translate(-49%, -48%) scale(0.82);
-}
 
 .fearures-mockup-dubble{
 	position:relative;
@@ -2410,28 +2379,6 @@ label.error {
 }
 .slide-screen .owl-item.center{
 	opacity:1;
-}
-/* .slide-screen.iphone::after {
-	content: url("../images/iphone.png");
-	left: 50%;
-	position: absolute;
-	top: 50%;
-	-webkit-transform: translate(-50%, -50%) scale(0.6);
-	transform: translate(-50%, -50%) scale(0.6);
-	-webkit-transition:all .3s ease;
-	-moz-transition:all .3s ease;
-	transition:all .3s ease;
-} */
-.slide-screen.iphonex::after {
-	content: url("../images/iphonex.png");
-	left: 50%;
-	position: absolute;
-	top: 50%;
-	-webkit-transform: translate(-49%, -51%) scale(.45);
-	transform: translate(-49%, -51%) scale(.45);
-	-webkit-transition:all .3s ease;
-	-moz-transition:all .3s ease;
-	transition:all .3s ease;
 }
 .frame-fix.slide-screen:after{
 	opacity:0;
@@ -3245,39 +3192,6 @@ label.error {
 .header-mockups{
 	position: relative;
 	padding-bottom: 10px;
-}
-.header-mockups .iphonex-flat-mockup{
-	position: absolute;
-	bottom:15px;
-	right:0;
-	z-index: 99;
-}
-.half-header .header-mockups .iphonex-flat-mockup{
-	bottom:-15px;
-	right:-30px;
-}
-.iphonex-flat-mockup{
-	position: relative;
-	width:190px;
-	height:390px;
-}
-.iphonex-flat-mockup.large{
-	position: relative;
-	width:240px;
-	height:520px;
-}
-.iphonex-flat-mockup img{
-	border-radius:20px;
-}
-.iphonex-flat-mockup:after{
-	position:absolute;
-	top:50%;
-	left:50%;
-	content:url("../images/iphonex-flat.png");
-	transform:translate(-51.5%,-49.3%) scale(.5);
-}
-.iphonex-flat-mockup.large:after{
-	transform:translate(-51.5%,-50.8%) scale(.645);
 }
 
 .feature-box{
