@@ -91,6 +91,11 @@ Updated	 :	10.22.2018
 	border-color: #FF1943;
 }
 
+.gradiant-background-gold {
+	background-image: -o-linear-gradient(157deg, gold 0%, darkorange 100%);
+	background-image: linear-gradient(293deg, gold 0%, darkorange 100%);
+}
+
 .gradiant-background,
 .bg-gradiant.mfp-bg,
 .box-icon,

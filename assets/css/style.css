@@ -2473,6 +2473,7 @@ label.error {
 	-webkit-transition:all .4s ease;
 	-moz-transition:all .4s ease;
 	transition:all .4s ease;
+	padding: 2px;
 }
 .pricing-box:hover{
 	transform:translateY(-8px);
