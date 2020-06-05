@@ -115,46 +115,6 @@ img{
 
 /* 02. Fonts CSS */
 @font-face {
-    font-family: 'Quicksand';
-    src: url('../fonts/Quicksand-Regular.eot');
-    src: local('Quicksand Regular'), local('Quicksand-Regular')
-		url('../fonts/Quicksand-Regular.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Quicksand-Regular.woff2') format('woff2'),
-        url('../fonts/Quicksand-Regular.woff') format('woff');
-    font-weight: 400;
-}
-
-@font-face {
-    font-family: 'Quicksand';
-    src: url('../fonts/Quicksand-Medium.eot');
-    src: local('Quicksand Medium'), local('Quicksand-Medium'),
-		url('../fonts/Quicksand-Medium.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Quicksand-Medium.woff2') format('woff2'),
-        url('../fonts/Quicksand-Medium.woff') format('woff');
-    font-weight: 500;
-}
-
-@font-face {
-    font-family: 'Quicksand';
-    src: url('../fonts/Quicksand-Light.eot');
-    src: local('Quicksand Light'), local('Quicksand-Light'),
-		url('../fonts/Quicksand-Light.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Quicksand-Light.woff2') format('woff2'),
-        url('../fonts/Quicksand-Light.woff') format('woff');
-    font-weight: 300;
-}
-
-@font-face {
-    font-family: 'Quicksand';
-    src: url('../fonts/Quicksand-Bold.eot');
-    src: local('Quicksand Bold'), local('Quicksand-Bold'),
-		url('../fonts/Quicksand-Bold.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Quicksand-Bold.woff2') format('woff2'),
-        url('../fonts/Quicksand-Bold.woff') format('woff');
-    font-weight: 700;
-}
-
-@font-face {
     font-family: 'Open Sans';
     src: url('../fonts/OpenSans-Light.eot');
     src: local('Open Sans Light'), local('OpenSans-Light'),
@@ -185,14 +145,10 @@ body {
 .font-primary, p.lead {
 	font-family: 'Open Sans', sans-serif;
 }
-.font-secondary {
-	font-family: 'Quicksand', sans-serif;
-}
 p, ul, ol, blockquote, table {
 	margin-bottom: 18px;
 }
 h1,.h1, h2,.h2, h3,.h3, h4,.h4, h5,.h5, h6,.h6 {
-	font-family: 'Quicksand', sans-serif;
 	line-height: 1.25;
 	font-weight: 700;
 	margin-bottom: 28px;
